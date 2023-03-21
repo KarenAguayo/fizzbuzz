@@ -6,8 +6,12 @@ describe("fizzBuss", () => {
     it("deberia devolver fizz para el numero 3", () => {
         expect(fizBuz(3)).toEqual("fizz");
     });
-    it("deberia devolver fizz para el numero 5", () => {
+    it("deberia devolver buzz para el numero 5", () => {
       expect(fizBuz(5)).toEqual("buzz");
     });
+    it("deberia devolver fizzbuzz para el numero 15", () => {
+      expect(fizBuz(15)).toEqual("fizzbuzz");
+    });
+    
     
   });

@@ -1,12 +1,15 @@
 function fizBuz(numero) {
-  if(numero==3)
-    return "fizz";
+  if(numero%3==0&&numero%5==0)
+    return "fizzbuzz";
   else
   {
-    if(numero==5)
-     return "buzz";
+    if(numero==3)
+     return "fizz";
+    else{
+      if(numero==5)
+       return "buzz";
+    }
   }
-  return numero
-    
+  return numero 
 }
 export default fizBuz;
