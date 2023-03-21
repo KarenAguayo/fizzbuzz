@@ -1,8 +1,12 @@
 function fizBuz(numero) {
- if(numero == 3){
+  if(numero==3)
     return "fizz";
- }
-return numero;
+  else
+  {
+    if(numero==5)
+     return "buzz";
+  }
+  return numero
+    
 }
-  
-  export default fizBuz;
+export default fizBuz;
