@@ -8,5 +8,5 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const firstNumber = Number.parseInt(first.value);
-  div.innerHTML = "<p>" + fizBuz(firstNumber) + "</p>";
+  div.innerHTML += "<p>" + fizBuz(firstNumber) + "</p>";
 });

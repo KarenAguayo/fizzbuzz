@@ -1,4 +1,4 @@
-import fizBuz from "./fizzBuss";
+import {fizBuz,cadenaFizzBuzz }from "./fizzBuss";
 describe("fizzBuss", () => {
     it("deberia devolver 1 para el numero 1", () => {
       expect(fizBuz(1)).toEqual(1);
@@ -18,6 +18,8 @@ describe("fizzBuss", () => {
     it("deberia devolver buzz para el numero 10", () => {
       expect(fizBuz(10)).toEqual("buzz");
     });
-    
+    it("genera fizzbuzz en rango de numeros", () => {
+      expect(cadenaFizzBuzz(15)).toEqual("1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, fizz, 13, 14, fizzbuzz");
+    });
     
   });
