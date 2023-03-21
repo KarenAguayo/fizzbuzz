@@ -12,6 +12,9 @@ describe("fizzBuss", () => {
     it("deberia devolver fizzbuzz para el numero 15", () => {
       expect(fizBuz(15)).toEqual("fizzbuzz");
     });
+    it("deberia devolver fizz para el numero 6", () => {
+      expect(fizBuz(6)).toEqual("fizz");
+    });
     
     
   });

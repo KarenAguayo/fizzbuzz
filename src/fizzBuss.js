@@ -3,7 +3,7 @@ function fizBuz(numero) {
     return "fizzbuzz";
   else
   {
-    if(numero==3)
+    if(numero%3==0)
      return "fizz";
     else{
       if(numero==5)
